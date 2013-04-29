@@ -85,9 +85,9 @@ def set4():
     f=k2
     print(" ")
     print("Dla zbioru D")
-    p2=int(input("Podaj wartość początkowa : "))
-    g=p2
-    k2=int(input("Podaj wartość końcowa : "))
-    h=k2
+    p3=int(input("Podaj wartość początkowa : "))
+    g=p3
+    k3=int(input("Podaj wartość końcowa : "))
+    h=k3
     print(" ")
     kartez4(a,b,c,d,e,f,g,h)
