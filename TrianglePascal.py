@@ -27,4 +27,4 @@ def pascal(n):
 
 l=int(input("Enter the natural number : "))
 m=l
-print(pascal(m))
+pascal(m)
