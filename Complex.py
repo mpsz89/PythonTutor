@@ -8,9 +8,9 @@ def ComplexNumber(re, im):
     elif re == 0 and im < 0:
         print('%s i' %(im))
     elif re > 0 and im < 0:
-        print('%s %s i' %(im))
+        print('%s %s i' %(re, im))
     elif re < 0 and im < 0:
-        print('%s %s i' %(im))
+        print('%s %s i' %(re, im))
     else:
         print('%s + %s i' %(re, im))
 
