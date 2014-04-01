@@ -5,6 +5,8 @@ def ComplexNumber(re, im):
     im = float(im)
     if re == 0 and im >=0:
         print('%s i' %(im))
+    elif re == 0 and im < 0:
+        print('%s i' %(im))
     elif re > 0 and im < 0:
         print('%s %s i' %(im))
     elif re < 0 and im < 0:
