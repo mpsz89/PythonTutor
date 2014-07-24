@@ -1,5 +1,5 @@
 #Michał Piotr Szmigiel
-#24 lipca 2014
+#28 lutego 2014
 #Python 3.3.0
 #Funkcja zespolona w Pythonie
 import math                                             #importowanie pakietu math
