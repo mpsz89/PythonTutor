@@ -1,3 +1,7 @@
+#Michał Piotr Szmigiel
+#24 lutego 2014
+#Python 3.3.0
+#Funkcja boolowska w Pythonie
 def Literal(x):
     if x == 'x':
         return 1
