@@ -3,7 +3,7 @@
 #Python 3.3.0
 #Funkcja zespolona w Pythonie
 
-import math
+import math                                             #importowanie pakietu math
 
 class ComplexFunction(object):                          #Tworzenie klasy pythona funkcji zespolonej.
     def __init__(self, x, y):                           #Tworzenie w tej klasie instancji ze zmiennymi x i y.
