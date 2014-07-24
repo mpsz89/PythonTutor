@@ -1,7 +1,7 @@
 #Michał Piotr Szmigiel
 #28 lutego 2014
 #Python 3.3.0
-#Funkcja zespolona w Pythonie
+#Liczba zespolona w Pythonie
 import math                                             #importowanie pakietu math
 
 def ComplexNumber(re, im):                              #Tworzenie funkcji imaginarisa.
