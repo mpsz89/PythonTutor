@@ -3,9 +3,11 @@
 #Python 3.3.0
 #Funkcja zespolona w Pythonie
 
-import math                                             #importowanie pakietu math
+#importowanie pakietu math
+import math                                             
 
-class ComplexFunction(object):                          #Tworzenie klasy pythona funkcji zespolonej.
+#Tworzenie klasy pythona funkcji zespolonej.
+class ComplexFunction(object):                          
     def __init__(self, x, y):                           #Tworzenie w tej klasie instancji ze zmiennymi x i y.
         self.x = x                                      #Inicjuje zmienne x.
         self.y = y                                      #Inicjuje zmienne y.
@@ -16,8 +18,8 @@ class ComplexFunction(object):                          #Tworzenie klasy pythona
     def im(self):                                       #Tworzenie funkcji imaginarisa.
         return 2*self.x*self.y                          #Zwraca wynik 2*x*y.
 
-    
-def ComplexNumber(re, im):                              #Tworzenie funkcji imaginarisa.
+#Tworzenie funkcji imaginarisa.    
+def ComplexNumber(re, im):                              
     re = float(re)                                      #Zmienne realis i imaginaris są równe typom float 
     im = float(im)                                      #czyli typom rzeczywistym.
     if re == 0 and im >=0:                              #Jeżeli realis jest równy 0 i imaginaris większy lub
@@ -31,13 +33,14 @@ def ComplexNumber(re, im):                              #Tworzenie funkcji imagi
     else:
         print('Liczba zespolona : %s+%s i' %(re, im))   #W ostatnim przypadku zwraca wartość re+im*i
 
-
-def Modulus(re, im):                                    #Tworzenie funkcji modułu zespolonego.
+#Tworzenie funkcji modułu zespolonego.
+def Modulus(re, im):                                    
     re = float(re)                                      #Zmienne realis i imaginaris są równe typom float.
     im = float(im)
     return math.sqrt((re*re) + (im*im))                 #Zwraca wynik znany ze stwierdzenia Pitagorasa sqrt(re^2 + im^2).
 
-def Argument(re, im):                                   #Tworzenie funkcji argumentu.
+#Tworzenie funkcji argumentu.
+def Argument(re, im):                                   
     re = float(re)                                      #Zmienne realis i imaginaris są równe typom float.
     im = float(im)
     if re > 0:                                          #Jeżeli realis > 0 to zwraca wynik arctan(re/im).                                
@@ -53,7 +56,8 @@ def Argument(re, im):                                   #Tworzenie funkcji argum
     else:                                               #W ostatnim przypadku wartość jest niezdefiniowana.
         print('Independent')             
 
-def main():                                             #Tworzenie głównego programu.
+#Tworzenie głównego programu.
+def main():                                             
     xx=float(input('Podaj x : '))                       #Zmienne xx jest równy typom float z podawaniem wartości wyjściowej x.
     x=xx                                                #zmienne x = xx.
     yy=float(input('Podaj y : '))                       #Zmienne yy jest równy typom float z podawaniem wartości wyjściowej y.
