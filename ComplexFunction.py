@@ -3,7 +3,7 @@
 #Python 3.3.0
 #Funkcja zespolona w Pythonie
 
-#importowanie pakietu math
+#importowanie modułu math
 import math                                             
 
 #Tworzenie klasy pythona funkcji zespolonej.
