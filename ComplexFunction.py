@@ -8,17 +8,16 @@ import math
 
 #Tworzenie klasy pythona funkcji zespolonej.
 class ComplexFunction(object):                          
-    def __init__(self, x, y):                           #Tworzenie w tej klasie instancji ze zmiennymi x i y.
-        self.x = x                                      #Inicjuje zmienne x.
-        self.y = y                                      #Inicjuje zmienne y.
+    def __init__(self, x, y):                           
+        self.x = x                                      
+        self.y = y                                      
+    def re(self):                                       
+        return (self.x*self.x)-(self.y*self.y)          
 
-    def re(self):                                       #Tworzenie funkcji realisa.
-        return (self.x*self.x)-(self.y*self.y)          #Zwraca wynik x^2 - y^2.
+    def im(self):                                      #Tworzenie funkcji imaginarisa.
+        return 2*self.x*self.y                          
 
-    def im(self):                                       #Tworzenie funkcji imaginarisa.
-        return 2*self.x*self.y                          #Zwraca wynik 2*x*y.
-
-#Tworzenie funkcji imaginarisa.    
+#Tworzenie funkcji zespoonej    
 def ComplexNumber(re, im):                              
     re = float(re)                                      #Zmienne realis i imaginaris są równe typom float 
     im = float(im)                                      #czyli typom rzeczywistym.
