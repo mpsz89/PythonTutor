@@ -10,7 +10,9 @@ import math
 class ComplexFunction(object):                          
     def __init__(self, x, y):                           
         self.x = x                                      
-        self.y = y                                      
+        self.y = y 
+        
+        
     def re(self):                                       
         return (self.x*self.x)-(self.y*self.y)          
 
