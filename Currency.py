@@ -143,7 +143,7 @@ class CHFtoGBP(object):
 
     def CHtoGB(self):
         if self.chf >= 0:
-            return round(self.chf * 0.825510189, 2)
+            return round(self.chf * 0.665383069, 2)
         else:
             print('Value of currency error !!!')
 
